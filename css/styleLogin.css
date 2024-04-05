@@ -1,0 +1,59 @@
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.name-school{
+    color: white;
+}
+
+.tag-name{
+    color: white;
+}
+.name-school:hover{
+    text-decoration: underline white;
+}
+
+header{
+    background-color: rgb(43, 80, 114);
+    border: yellow solid 2px;
+}
+
+.container-header{
+    border: yellow solid 1px;
+}
+
+.login-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.row-item{
+    height: 100%;
+}
+
+.row-principal{
+    margin-top: 2%;
+}
+
+.form-control{
+    border: gray  solid 1px  ;
+}
+
+.footer{
+    background-color:  rgb(43, 80, 114);
+    border: yellow solid 2px;
+    margin-top: auto;
+}
+
+.text-footer{
+    text-align: start;
+    margin: 0;
+    display: block;
+}
+
+
+

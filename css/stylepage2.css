@@ -1,0 +1,90 @@
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: rgb(43, 80, 114);
+}
+
+.content-header{
+    border: solid yellow 2px;
+}
+
+.text-jurado{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 0 0;
+}
+
+.container-text-jurado{
+    margin-top:5%;
+    margin-bottom: 0%;
+}
+
+.name-school{
+    color: white;
+}
+
+.tag-name{
+    color: white;
+}
+.name-school:hover{
+    text-decoration: underline white;
+}
+
+.name-user{
+    color: white;
+}
+
+.name-user:hover{
+    color: white;
+    text-decoration: underline solid 2px;
+}
+
+
+.container-number-votes{
+    
+    margin-top: 0;
+}
+
+.col-stats{
+    border: rgb(43, 80, 114) solid 2px;
+    justify-content: center;
+}
+
+.form-control{
+    border:gray solid 2px;
+}
+
+.suffragant{
+    padding-top: 1.5rem;
+}
+
+.habilitados{
+    padding-top: 1.5rem;
+}
+
+.number-select{
+    font-size: 4rem;
+    color:rgb(43, 80, 114);
+    font-weight: bold   ;
+}
+
+.input-code{
+    border-color: gray;
+    width: 80%;
+}
+
+.input-code-container{
+   padding-left: 12rem;
+}
+
+.footer-page-2{
+   margin-top: auto;
+}

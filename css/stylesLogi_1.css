@@ -1,0 +1,266 @@
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: rgb(43, 80, 114);
+    border: yellow solid 2px;
+}
+
+.name-school{
+    color: white;
+}
+
+.tag-name{
+    color: white;
+}
+.name-school:hover{
+    text-decoration: underline white;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.shield-school{
+    display: inline;
+    width: 25%;
+}
+
+.name-school{
+    display: inline;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tag-name-div{
+    padding: 1% 0;
+}
+
+.tag-name{
+    display: inline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.name-user{
+    display: inline;
+    text-align: start;
+    color: white;
+}
+
+.name-user:hover{
+    text-decoration: underline solid white;
+}
+
+.img-user{
+    display: inline;
+    width: 70%;
+}
+
+.img-user:hover{
+    transition: all ease-in 0.3s;
+    width: 80%;
+}
+
+.container-nav{
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-color:rgb(43, 80, 114)#212185d7 ;
+    border-top-color: yellow 1px ;
+}
+
+.nav{
+    height: 2.5rem;
+    background: rgb(43, 80, 114);
+    text-align: center;
+    padding: auto;
+    border: solid yellow 2px;
+    border-top: 2px;
+}
+ 
+
+.div-nav:hover{
+    transition: all ease 0.3s;
+    text-decoration: underline white;  
+    cursor: pointer;
+}
+
+.text-nav{
+    text-decoration: none;
+    margin: auto;
+    color: white;
+}
+
+.content-mesa{
+    text-align: center; 
+    height: 400px;
+    width: auto;
+    margin: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 12%;
+    border: rgb(43, 80, 114) solid 2px;
+}
+
+.conatiner-card-votation{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.line-content-view-card{
+    margin-bottom: 1.5rem;
+}
+
+.content-card-votation{
+    background-color: gray;
+    text-align: center;
+    width: 55%;
+    margin-left: 5%;
+    height: auto;
+    box-shadow: inset;
+}
+
+.card-votation-header-col3{
+    margin-top: 1rem;
+}
+
+.card-votation-header-text3{
+    text-align: center;
+    color: rgb(43, 80, 114);
+    display: block;
+    margin: 0%;
+    font-weight: bold;
+    -webkit-text-stroke: rgb(43, 80, 114) 2px;
+    -webkit-text-fill-color: gray ;
+}
+
+
+.tag-mesa{
+    margin: 20%;
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.tg-text-card-mesa{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.shield-school-card-votation{
+    display: inline;
+    width: 80%;
+    margin-top: 1rem;
+  
+}
+
+.card-votation-header-text1{
+    margin-top: 10%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: yellow solid 2px;
+}
+
+.card-votation-header-text2{
+    text-align: center;
+    color: #212185d7;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-view-card{
+    border: solid black 3px;
+    border-radius: 20px ;
+    margin: auto;
+}
+
+.container-view-card:hover{
+    transition: all ease-in 1s;
+    background-color: white;
+}
+
+.container-view-card-white{
+    border: solid black 3px;
+    border-radius: 20px;
+    height: 20rem;
+    margin: auto;
+}
+
+.container-view-card:hover{
+    transition: all ease-in 1s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.text-voto-en-blanco{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 15%;
+}
+
+.container-view-card-white:hover{
+    transition: all ease-in 1s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.top-card-view p{
+    display: inline;
+    font-size: 5rem;
+    font-weight: bold;
+}
+ 
+.top-card-view-img{
+    width: 80%;
+    margin-top:12%;
+    border-radius: 45%;
+}
+
+.bottom-card-view p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10%;
+}
+
+.card-white-election{
+    width: 100px;
+}
+
+.footer{
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-color:rgb(43, 80, 114) ; 
+    background-color:rgb(43, 80, 114) ;
+    border-top: yellow;
+    border-bottom: yellow;
+    border-style: solid;
+}
+
+.footer{
+    margin-bottom: 0;
+    text-align: center;
+    background-color:rgb(43, 80, 114);
+    border-top: yellow;
+    border-bottom: yellow;
+    border-style: solid;
+    margin-top: auto;
+}
+
+.text-footer{
+    color: white;
+}

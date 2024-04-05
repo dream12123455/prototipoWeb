@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.carousel-item{
+    max-height: 400px;
+}
+.navbar{
+    background-color: rgb(43, 80, 114);
+}
+.navbar img{
+    height: 50px;
+    width: auto;
+}
+footer p{
+    margin: 2px;
+}
+footer{
+    background-color: rgb(43, 80, 114);
+}
+h2{
+    color:rgb(43, 80, 114);
+}

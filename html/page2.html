@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylesLogi_1.css">
+    <link rel="stylesheet" href="../css/stylepage2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Escudo_ACME.png">
+    <title>Sistemas de Votaciones</title>
+</head>
+<body>
+   <header>
+        <div class="container-fluid content-header">
+            <div class="row ">
+                <div class="col col-sm-3 col-md-3 col-lg-3">
+                    <img class="shield-school" src="../img/Escudo_ACME.png" alt="">
+                    <a href="../index.html" class="name-school">ESCUELA ACME</a>
+                </div>
+                <div class="col col-sm-7  col-md-7 col-lg-7 tag-name-div ">
+                    <p class="tag-name">SISTEMA PARA ELECCIONES DEL ESCOLAR GOBIERNO ESCOLAR 2024</p>
+                </div>
+                <div class="col col-md-2 col-sm-2">
+                    <div class="contenedor-user">
+                        <div class="row">
+                            <div class="col-6 p-2 ">
+                                <p class="name-user">Brayan Duran</p>
+                            </div>
+                            <div class="col-6 p-2 ">
+                                <img class="img-user" src="../img/acme_foto1.png" alt="">        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container-nav">
+        <div class="container-fluid">
+            <div class="row nav" >
+                <div class="col col-sm-1  col-md-1 col-lg-1 div-nav">
+                    <a href="../index.html"  class="text-nav">Inicio</a>
+                </div>
+                <div class="col-1 col-sm-1  col-md-1 col-lg-1 div-nav div-nav">
+                    <a class="text-nav">Estadisticas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row container-text-jurado">
+            <div class="col-4 ">
+                <p class="text-jurado">Jurado Mesa No <span class="number-table">1</span></p>
+            </div>
+        </div>
+        <div class="row container-number-votes m-1 ">
+            <div class="col col-sm-12 col-md-5 col-lg-4 col-stats">
+                <div class="row">
+                    <div class="col col-stats">
+                        <p class="suffragant">Sufragante:</p>
+                    </div>
+                    <div class="col col-stats">
+                        <p>Votos realizados para personero:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-stats">
+                        <p class="number-suffragant number-select">45</p>
+                    </div>
+                    <div class="col col-stats">
+                        <p class="number-votes-personero number-select">18</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-stats habilitados">
+                        <p>Habilitados:</p> 
+                    </div>
+                    <div class="col col-stats">
+                        <p>Votos realizados para contralor:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-stats">
+                        <p class="number-habilitados number-select">18</p>
+                    </div>
+                    <div class="col col-stats">
+                        <p class="number-votes-contralor number-select">18</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-7 input-code-container">
+                <div class="row">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Codigo, nombre o apellido" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="col col-12 ">
+                        <table class="table table-striped"> 
+                            <tr class="table-primary">
+                                <td class="table-primary"><b>Nombre</b></td>
+                                <td class="table-primary "><b>Apellido</b></td>
+                                <td class="table-primary "><b>Código</b></td>
+                                <td class="table-primary "><b>Estado</b></td>
+                                <td class="table-primary "></td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td class="table-primary">Javier</td>
+                                <td class="table-primary ">Solano</td>
+                                <td class="table-primary ">123456</td>
+                                <td class="table-primary ">Habilitad@ 
+                                    <td class="table-primary ">
+                                        <div class="btn-group">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Cambiar estado
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">habilitar</a></li>
+                                              <li><a class="dropdown-item" href="#">inhabilitar</a></li>
+                                            </ul>
+                                          </div>    
+                                    </td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td class="table-primary">Lupe</td>
+                                <td class="table-primary ">Guada</td>
+                                <td class="table-primary ">123356</td>
+                                <td class="table-primary ">Inhabilitad@</td>
+                                <td class="table-primary">
+                                    <div class="btn-group">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Cambiar Estado
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">habilitar</a></li>
+                                          <li><a class="dropdown-item" href="#">inhabilitar</a></li>
+                                        </ul>
+                                      </div>
+                                </td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td class="table-primary">Elza</td>
+                                <td class="table-primary ">Nahoria</td>
+                                <td class="table-primary ">1234r6</td>
+                                <td class="table-primary ">Inhabilitad@</td>
+                                <td class="table-primary ">
+                                    <div class="btn-group">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Cambiar estado
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">habilitar</a></li>
+                                          <li><a class="dropdown-item" href="#">inhabilitar</a></li>
+                                        </ul>
+                                      </div>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+               </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="container-fluid footer footer-page-2">
+        <footer class="container-fluid">
+            <p class="text-footer">Desarollado por</p>
+            <p class="text-footer">Brayan duran Liñan</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
