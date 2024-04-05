@@ -11,9 +11,9 @@ function login(){
     if(expReg.test(userEmail.value) && password.value !=""){
 
         if(userEmail.value == "bdjdl@gmail.com")
-        window.location.href = "/html/page2.html"
+        window.location.href = "../html/page2.html"
         else
-        window.location.href = "/html/votaciones.html"
+        window.location.href = "../html/votaciones.html"
 
     }else{
         userEmail.style.border = "red solid 2px";
