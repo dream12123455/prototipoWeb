@@ -2,7 +2,7 @@ var userEmail = document.getElementById("userPrincipal");
 var password = document.getElementById("password");
 
 var expReg= /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
-var expReg2 = /^[a-z0-9]^/
+var expReg2 = /^[a-z0-9]^/;
 
 function login(){
 
@@ -11,9 +11,9 @@ function login(){
     if(expReg.test(userEmail.value) && password.value !=""){
 
         if(userEmail.value == "bdjdl@gmail.com")
-        window.location.href = "../html/page2.html"
+        location.href = "../html/page2.html";
         else
-        window.location.href = "../html/votaciones.html"
+        location.href = "../html/votaciones.html";
 
     }else{
         userEmail.style.border = "red solid 2px";
